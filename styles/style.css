@@ -190,36 +190,95 @@ header {
     text-align: center;
     margin-top: 2%;
 }
-.habit-items{
+
+.habit-items {
     max-width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2%;
     margin-top: 5%;
 }
-.habit-item img{
+
+.habit-item img {
     width: 90%;
     border-radius: 50%;
     align-items: center;
     margin-left: 5%;
 }
-.habit-item h3{
+
+.habit-item h3 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 1.3rem;
     margin-bottom: 0;
 }
-.habit-item p{
+
+.habit-item p {
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 0.8rem;
     margin-top: 2%;
 }
 
-
-
 /* habit section start end */
+
+/* run extra mile start here */
+
+.run-extra-mile {
+    width: 80%;
+    height: 371px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.run-section{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.run-text{
+    max-width: 50%;
+    margin-top: 2%;
+}
+.run-text h2 {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.run-text p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.run-text button {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.img-section{
+    max-width: 50%;
+    
+}
+.img-section img{
+    max-width: 80%;
+    margin-top: 8%;
+    margin-left: 18%;
+    border-radius: 3%;
+}
+
+/* run extra mile start end */
 
 /* mobile responsive */
 @media screen and (max-width:576px) {
@@ -246,12 +305,34 @@ header {
         display: flex;
         justify-content: space-around;
     }
-    .habit-section{
+
+    .habit-section {
         max-width: 80%;
         margin: 0 auto;
         margin-top: 180%;
     }
-    .habit-items{
+
+    .habit-items {
         grid-template-columns: 1fr;
+    }
+    .run-extra-mile{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 30%;
+        height: 550px;
+    }
+    .run-section{
+        flex-direction: column;
+    }
+    .run-text{
+        max-width: 100%;
+        margin-left: 5%;
+    }
+    .img-section{
+        max-width: 100%;
+    }
+    .img-section img{
+        max-width: 90%;
+        margin-left: 5%;
     }
 }
