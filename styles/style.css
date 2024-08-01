@@ -235,15 +235,18 @@ header {
     margin: 0 auto;
     margin-top: 100px;
 }
-.run-section{
+
+.run-section {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.run-text{
+
+.run-text {
     max-width: 50%;
     margin-top: 2%;
 }
+
 .run-text h2 {
     font-size: 2.5rem;
     color: rgb(255, 255, 255);
@@ -253,7 +256,7 @@ header {
 .run-text p {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
-    
+
 }
 
 .run-text button {
@@ -267,11 +270,12 @@ header {
     font-size: 1rem;
 }
 
-.img-section{
+.img-section {
     max-width: 50%;
-    
+
 }
-.img-section img{
+
+.img-section img {
     max-width: 80%;
     margin-top: 8%;
     margin-left: 18%;
@@ -279,6 +283,122 @@ header {
 }
 
 /* run extra mile start end */
+
+/* traning section start */
+
+.traning-section {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.traning-section-text h2 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.traning-section-text p {
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255, 0.5);
+    margin-bottom: 5%;
+}
+
+.item1 {
+    background-image: linear-gradient(180.00deg, rgb(116, 231, 145), rgba(84, 131, 78, 0) 150%), url("../images/exercise1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.item2 {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 119, 198, 0.185)), url("../images/exercise2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.item3 {
+    background-image: linear-gradient(rgba(32, 28, 28, 0.5), rgba(39, 36, 36, 0.5)), url("../images/exercise3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.item4 {
+    background-image: linear-gradient(rgba(32, 28, 28, 0.5), rgba(39, 36, 36, 0.5)), url("../images/exercise4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.item5 {
+    background-image: linear-gradient(rgba(104, 255, 99, 0.5), rgba(143, 250, 93, 0.5)), url("../images/exercise5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.item6 {
+    background-image: linear-gradient(rgba(64, 203, 245, 0.5), rgba(45, 210, 252, 0.5)), url("../images/exercise6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.traning-items1 {
+    display: grid;
+    grid-template-columns: 0.75fr 1.25fr 1fr;
+}
+.traning-items2 {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr 0.75fr;
+}
+.item1 p{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+.item2 p{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+}
+.item3 p{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+}
+.item4 p{
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    color: rgb(255, 255, 255);
+}
+.item5 p, .item6 p{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+}
+.block-text{
+    display: none;
+}
+/* traning section end */
 
 /* mobile responsive */
 @media screen and (max-width:576px) {
@@ -315,24 +435,49 @@ header {
     .habit-items {
         grid-template-columns: 1fr;
     }
-    .run-extra-mile{
+
+    .run-extra-mile {
         max-width: 90%;
         margin: 0 auto;
         margin-top: 30%;
         height: 550px;
     }
-    .run-section{
+
+    .run-section {
         flex-direction: column;
     }
-    .run-text{
+
+    .run-text {
         max-width: 100%;
         margin-left: 5%;
     }
-    .img-section{
+
+    .img-section {
         max-width: 100%;
     }
-    .img-section img{
+
+    .img-section img {
         max-width: 90%;
         margin-left: 5%;
+    }
+    .item3, .item6{
+        display: none;
+    }
+    .traning-section{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .traning-items1{
+        grid-template-columns: 1fr 1fr;
+    }
+    .traning-items2{
+        grid-template-columns: 0.75fr 1.25fr;
+    }
+    .para {
+        display: none;
+    }
+    .block-text{
+        display: block;
+        color: rgb(255, 255, 255);
     }
 }
