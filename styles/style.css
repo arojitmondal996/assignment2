@@ -362,43 +362,341 @@ header {
     display: grid;
     grid-template-columns: 0.75fr 1.25fr 1fr;
 }
+
 .traning-items2 {
     display: grid;
     grid-template-columns: 1.25fr 1fr 0.75fr;
 }
-.item1 p{
+
+.item1 p {
     position: absolute;
     top: 60%;
     left: 5%;
 }
-.item2 p{
+
+.item2 p {
     position: absolute;
     top: 5%;
     left: 5%;
     color: rgb(255, 255, 255);
 }
-.item3 p{
+
+.item3 p {
     position: absolute;
     top: 60%;
     left: 5%;
     color: rgb(255, 255, 255);
 }
-.item4 p{
+
+.item4 p {
     position: absolute;
     top: 5%;
     left: 55%;
     color: rgb(255, 255, 255);
 }
-.item5 p, .item6 p{
+
+.item5 p,
+.item6 p {
     position: absolute;
     top: 60%;
     left: 5%;
     color: rgb(255, 255, 255);
 }
-.block-text{
+
+.block-text {
     display: none;
 }
+
 /* traning section end */
+
+/* table section start */
+/* .table-field {
+    max-width: 100%;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+
+}
+
+.table-section {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+.table-section h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-left: 25%;
+    margin-bottom: 0;
+}
+
+.table-section p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+.table-sider {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table,
+th {
+    color: rgb(255, 255, 255);
+}
+
+table,
+td {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.table-text {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.table-text h2 {
+    margin-left: 0%;
+    margin-top: 5%;
+    font-size: 1.7rem;
+}
+
+.table-button {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+
+}
+
+.table-button h2 {
+    margin-left: 55%;
+    margin-top: 5%;
+    font-size: 1.7rem;
+}
+
+.table-button p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    margin-left: 55%;
+    margin-top: 1%;
+}
+
+.table-btn {
+    margin-left: 55%;
+    justify-content: center;
+}
+
+.btn-1 {
+    padding: 2% 3.5%;
+    width: 35%;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.3% 0.4%;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    margin-top: 1.5%;
+}
+
+.btn-2 {
+    padding: 2% 3.5%;
+    width: 35%;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.3% 0.4%;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+
+.btn-3 {
+    padding: 2% 3.5%;
+    width: 35%;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.3% 0.4%;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    margin-top: 1.5%;
+}
+
+.btn-4 {
+    padding: 2% 3.5%;
+    width: 35%;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.3% 0.4%;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+
+.btn-5 {
+    padding: 2% 3.5%;
+    width: 72%;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.3% 0.4%;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    margin-top: 1.5%;
+}
+
+.btn-6 {
+    padding: 2% 3.5%;
+    width: 30%;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    margin: 0.3% 0.4%;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 4%;
+}
+.btn-4 option{
+    color: rgba(255, 255, 255, 0.1);
+} */
+.bmi-para-2{
+    display: none;
+}
+.bmi-section{
+    max-width: 100%;
+    margin-top: 5%;
+}
+.bmi-section h3{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-left: 25%;
+    margin-bottom: 0;
+}
+.bmi-section p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.bmi-content{
+    max-width: 100%;
+    /* background: rgba(54, 53, 53, 0.1); */
+    background: rgb(34, 34, 34);
+    margin-top: 5%;
+}
+.bmi-items{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.bmi-table{
+    width: 35%;
+}
+.bmi-table h3{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 0;
+}
+table,
+th,
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table{
+    margin-top: 5%;
+}
+table th{
+    color: rgb(255, 255, 255);
+}
+table td{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-input-fild{
+    width: 50%;
+    margin-top: 3%;
+}
+.bmi-input-fild h2{
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.bmi-input-fild p{
+    margin-left: 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-input-fild input{
+    width: 40%;
+    padding: 1rem;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 2%;
+    border: none;
+    background: rgba(54, 53, 53, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+.bmi-input-fild select{
+    width: 46%;
+    padding: 1rem;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 2%;
+    border: none;
+    background: rgba(54, 53, 53, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+#factor-input{
+    width: 94%;
+    padding: 1rem;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 2%;
+    border: none;
+    background: rgba(54, 53, 53, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+.btn-cal{
+    margin-top: 4%;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 1rem 5rem;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 0.95rem;
+
+}
+
+/* table section end */
 
 /* mobile responsive */
 @media screen and (max-width:576px) {
@@ -460,24 +758,74 @@ header {
         max-width: 90%;
         margin-left: 5%;
     }
-    .item3, .item6{
+
+    .item3,
+    .item6 {
         display: none;
     }
-    .traning-section{
+
+    .traning-section {
         max-width: 80%;
         margin: 0 auto;
     }
-    .traning-items1{
+
+    .traning-items1 {
         grid-template-columns: 1fr 1fr;
     }
-    .traning-items2{
+
+    .traning-items2 {
         grid-template-columns: 0.75fr 1.25fr;
     }
+
     .para {
         display: none;
     }
-    .block-text{
+
+    .block-text {
         display: block;
         color: rgb(255, 255, 255);
+    }
+    /* start here */
+    .bmi-section h3{
+        font-size: 1.5rem;
+        margin-left: 12px;
+    }
+    .bmi-section p{
+        font-size: .8rem;
+        margin-left: 0px;
+    }
+    .bmi-items{
+            flex-direction: column;
+    }
+    .bmi-table{
+        width: 80%;
+        margin-left: 0;
+    }
+    .bmi-table h3 {
+        font-size: 1.5rem;
+    }
+    .bmi-table table{
+        font-size: .6rem;
+
+    }
+    .bmi-para{
+        display: none;
+    }
+    .bmi-para-2{
+        display: block;
+    }
+    .bmi-input-fild{
+        width: 100%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    .bmi-input-fild h2{
+        font-size: 1rem;
+    }
+    .bmi-input-fild p{
+        font-size: .5rem;
+    }
+    .bmi-input-fild input{
+        max-width:35%;
     }
 }
