@@ -410,217 +410,54 @@ header {
 /* traning section end */
 
 /* table section start */
-/* .table-field {
-    max-width: 100%;
-    background: rgb(34, 34, 34);
-    margin: 0 auto;
-    height: 80%;
-    display: flex;
-
-}
-
-.table-section {
-    max-width: 100%;
-    margin: 0 auto;
-    margin-top: 7%;
-}
-
-.table-section h2 {
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
-    margin-left: 25%;
-    margin-bottom: 0;
-}
-
-.table-section p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.8rem;
-    margin-left: 25%;
-    margin-top: 1%;
-}
-
-.table-sider {
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-table,
-th,
-td {
-    border: 1px solid gray;
-    border-collapse: collapse;
-    padding: 10px;
-}
-
-table,
-th {
-    color: rgb(255, 255, 255);
-}
-
-table,
-td {
-    color: rgb(255, 255, 255, 0.5);
-}
-
-.table-text {
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
-
-.table-text h2 {
-    margin-left: 0%;
-    margin-top: 5%;
-    font-size: 1.7rem;
-}
-
-.table-button {
-    margin-top: 20%;
-    margin-bottom: 5%;
-    margin-right: 3%;
-
-}
-
-.table-button h2 {
-    margin-left: 55%;
-    margin-top: 5%;
-    font-size: 1.7rem;
-}
-
-.table-button p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.7rem;
-    margin-left: 55%;
-    margin-top: 1%;
-}
-
-.table-btn {
-    margin-left: 55%;
-    justify-content: center;
-}
-
-.btn-1 {
-    padding: 2% 3.5%;
-    width: 35%;
-    border-radius: 4px;
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 0.3% 0.4%;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: left;
-    margin-top: 1.5%;
-}
-
-.btn-2 {
-    padding: 2% 3.5%;
-    width: 35%;
-    border-radius: 4px;
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 0.3% 0.4%;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: left;
-    margin-top: 1.5%;
-    margin-left: 1%;
-}
-
-.btn-3 {
-    padding: 2% 3.5%;
-    width: 35%;
-    border-radius: 4px;
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 0.3% 0.4%;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: left;
-    margin-top: 1.5%;
-}
-
-.btn-4 {
-    padding: 2% 3.5%;
-    width: 35%;
-    border-radius: 4px;
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 0.3% 0.4%;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: left;
-    margin-top: 1.5%;
-    margin-left: 1%;
-}
-
-.btn-5 {
-    padding: 2% 3.5%;
-    width: 72%;
-    border-radius: 4px;
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 0.3% 0.4%;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: left;
-    margin-top: 1.5%;
-}
-
-.btn-6 {
-    padding: 2% 3.5%;
-    width: 30%;
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    border: none;
-    margin: 0.3% 0.4%;
-    font-size: 0.8rem;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin-bottom: 7%;
-    margin-top: 4%;
-}
-.btn-4 option{
-    color: rgba(255, 255, 255, 0.1);
-} */
-.bmi-para-2{
+.bmi-para-2 {
     display: none;
 }
-.bmi-section{
+
+.bmi-section {
     max-width: 100%;
     margin-top: 5%;
 }
-.bmi-section h3{
+
+.bmi-section h3 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     margin-left: 25%;
     margin-bottom: 0;
 }
-.bmi-section p{
+
+.bmi-section p {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     margin-left: 25%;
     margin-top: 2%;
 }
-.bmi-content{
+
+.bmi-content {
     max-width: 100%;
     /* background: rgba(54, 53, 53, 0.1); */
     background: rgb(34, 34, 34);
     margin-top: 5%;
 }
-.bmi-items{
+
+.bmi-items {
     max-width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 5%;
 }
-.bmi-table{
+
+.bmi-table {
     width: 35%;
 }
-.bmi-table h3{
+
+.bmi-table h3 {
     font-size: 2rem;
     text-align: left;
     margin-left: 0;
 }
+
 table,
 th,
 td {
@@ -628,31 +465,38 @@ td {
     border-collapse: collapse;
     padding: 10px;
 }
-table{
+
+table {
     margin-top: 5%;
 }
-table th{
+
+table th {
     color: rgb(255, 255, 255);
 }
-table td{
+
+table td {
     color: rgba(255, 255, 255, 0.5);
 }
-.bmi-input-fild{
+
+.bmi-input-fild {
     width: 50%;
     margin-top: 3%;
 }
-.bmi-input-fild h2{
+
+.bmi-input-fild h2 {
     margin-top: 0;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     margin-bottom: 0;
 }
-.bmi-input-fild p{
+
+.bmi-input-fild p {
     margin-left: 0;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
 }
-.bmi-input-fild input{
+
+.bmi-input-fild input {
     width: 40%;
     padding: 1rem;
     margin-left: 5px;
@@ -663,7 +507,8 @@ table td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
 }
-.bmi-input-fild select{
+
+.bmi-input-fild select {
     width: 46%;
     padding: 1rem;
     margin-left: 5px;
@@ -674,7 +519,8 @@ table td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
 }
-#factor-input{
+
+#factor-input {
     width: 94%;
     padding: 1rem;
     margin-left: 5px;
@@ -685,7 +531,8 @@ table td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
 }
-.btn-cal{
+
+.btn-cal {
     margin-top: 4%;
     background: rgb(230, 83, 60);
     border: none;
@@ -697,6 +544,136 @@ table td{
 }
 
 /* table section end */
+
+/* team section start */
+.team-section {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.team-section h3 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.team-section p {
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.image-section {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 8%;
+}
+.image-section1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.image-section2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.traning-card1{
+    background-image: linear-gradient(rgba(39, 28, 28, 0.3), rgba(32, 29, 31, 0.185)), url("../images/trainer1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 272px;
+    border-radius: 18px;
+    margin-top: 5%;
+    position: relative;
+}
+.traning-card2{
+    background-image: linear-gradient(rgba(39, 28, 28, 0.3), rgba(32, 29, 31, 0.185)), url("../images/trainer2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 272px;
+    border-radius: 18px;
+    margin-top: 5%;
+    position: relative;
+}
+.traning-card3{
+    background-image: linear-gradient(rgba(39, 28, 28, 0.3), rgba(32, 29, 31, 0.185)), url("../images/trainer3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 272px;
+    border-radius: 18px;
+    margin-top: 5%;
+    position: relative;
+}
+.traning-card4{
+    background-image: linear-gradient(rgba(39, 28, 28, 0.3), rgba(32, 29, 31, 0.185)), url("../images/trainer4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 272px;
+    border-radius: 18px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.traning-card5{
+    background-image: linear-gradient(rgba(39, 28, 28, 0.3), rgba(32, 29, 31, 0.185)), url("../images/trainer5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 272px;
+    border-radius: 18px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.traning-card6{
+    background-image: linear-gradient(rgba(39, 28, 28, 0.3), rgba(32, 29, 31, 0.185)), url("../images/trainer6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 272px;
+    border-radius: 18px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.traning-card1 h4,
+.traning-card2 h4,
+.traning-card3 h4,
+.traning-card4 h4,
+.traning-card5 h4,
+.traning-card6 h4{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.traning-card1 p,
+.traning-card2 p,
+.traning-card3 p,
+.traning-card4 p,
+.traning-card5 p,
+.traning-card6 p{
+    color: rgb(255, 255, 255, 0.5);
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
+/* team section end */
 
 /* mobile responsive */
 @media screen and (max-width:576px) {
@@ -785,47 +762,75 @@ table td{
         display: block;
         color: rgb(255, 255, 255);
     }
+
     /* start here */
-    .bmi-section h3{
+    .bmi-section h3 {
         font-size: 1.5rem;
         margin-left: 12px;
     }
-    .bmi-section p{
+
+    .bmi-section p {
         font-size: .8rem;
         margin-left: 0px;
     }
-    .bmi-items{
-            flex-direction: column;
+
+    .bmi-items {
+        flex-direction: column;
     }
-    .bmi-table{
+
+    .bmi-table {
         width: 80%;
         margin-left: 0;
     }
+
     .bmi-table h3 {
         font-size: 1.5rem;
     }
-    .bmi-table table{
+
+    .bmi-table table {
         font-size: .6rem;
 
     }
-    .bmi-para{
+
+    .bmi-para {
         display: none;
     }
-    .bmi-para-2{
+
+    .bmi-para-2 {
         display: block;
     }
-    .bmi-input-fild{
+
+    .bmi-input-fild {
         width: 100%;
         margin: 0;
         margin-top: 5%;
     }
-    .bmi-input-fild h2{
+
+    .bmi-input-fild h2 {
         font-size: 1rem;
     }
-    .bmi-input-fild p{
+
+    .bmi-input-fild p {
         font-size: .5rem;
     }
-    .bmi-input-fild input{
-        max-width:35%;
+
+    .bmi-input-fild input {
+        max-width: 35%;
+    }
+    .team-section{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .image-section1,
+    .image-section2{
+        grid-template-columns: 1fr;
+    }
+    .traning-card1,
+    .traning-card2,
+    .traning-card3,
+    .traning-card4,
+    .traning-card5,
+    .traning-card6{
+        margin-left: 3%;
     }
 }
