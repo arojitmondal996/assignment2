@@ -682,7 +682,6 @@ table td {
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
     margin-top: 5%;
-    margin-bottom: 5%;
 }
 .footer-content{
     max-width: 80%;
@@ -748,7 +747,6 @@ table td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     margin-left: 40%;
-    margin-bottom: 20px;
     padding-bottom: 1%;
 }
 /* footer section end */
@@ -935,6 +933,5 @@ table td {
     .footer h3{
         text-align: center;
         margin-left: 5%;
-        margin-bottom: 5%;
     }
 }
