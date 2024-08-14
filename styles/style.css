@@ -675,6 +675,84 @@ table td {
 }
 /* team section end */
 
+/* footer section start */
+
+.footer-section{
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.footer-content{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-feetness{
+    width: 35%;
+    margin-top: 5%;
+}
+.footer-feetness h3{
+    color: rgb(230, 83, 60);
+    font-size: 3.2rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.footer-feetness p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin-top: 0%;
+    margin-bottom: 35%;
+}
+.text-content{
+    max-width: 20%;
+    margin-top: 3%;
+    margin-left: 15%;
+
+}
+.text-content h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+}
+.text-content h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    padding: 0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.text-content1{
+    max-width: 30%;
+    margin-top: 3%;
+    margin-left: 16.6%;
+}
+.text-content1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+}
+.text-content1 h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    padding: 0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.line-head{
+    max-width: 60%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-left: 20%;
+    border: none;
+}
+.footer h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    padding-bottom: 1%;
+}
+/* footer section end */
+
 /* mobile responsive */
 @media screen and (max-width:576px) {
     .menu-bar ul {
@@ -832,5 +910,31 @@ table td {
     .traning-card5,
     .traning-card6{
         margin-left: 3%;
+    }
+    .footer-section{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+    .footer-feetness{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: 16%;
+    }
+    .footer-content{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .line-head hr{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .footer h3{
+        text-align: center;
+        margin-left: 5%;
+        margin-bottom: 5%;
     }
 }
